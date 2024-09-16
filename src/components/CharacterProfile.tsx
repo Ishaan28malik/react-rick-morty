@@ -116,7 +116,7 @@ const EpisodeListContainer = styled.div`
   overflow-y: auto;
   margin-top: 0.5rem;
   padding-right: 0.5rem;
-  width: 100%;
+  width: 15rem;
 
   ul {
     padding-left: 1rem;
@@ -124,9 +124,9 @@ const EpisodeListContainer = styled.div`
 
   @media (max-width: 768px) {
     max-height: 100px;
-    padding-right: 0;
-    max-width: 50%;
-    border: 2px solid lightgray;
+    padding: 0px 16px;
+    max-width: 12rem;
+    border: 1px solid lightgray;
   }
 `;
 
